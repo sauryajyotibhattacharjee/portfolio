@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gill Sans, sans-serif;
+    background:blanchedalmond;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.skills-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-list li {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background: #555;
+    border-radius: 5px;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.skills-list li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.bar {
+    background: #353b48;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1) 0%, rgba(252, 103, 103, 1) 100%);
+}
+/* Animation for HTML skill */
+.HTML {
+    width: 0;
+    animation: HTML 3s ease forwards;
+}
+
+/* Animation for CSS skill */
+.CSS {
+    width: 0;
+    animation: CSS 3s ease forwards;
+}
+
+/* Animation for JavaScript skill */
+.JAVASCRIPT {
+    width: 0;
+    animation: JAVASCRIPT 3s ease forwards;
+}
+
+/* Animation for C skill */
+.C {
+    width: 0;
+    animation: C 3s ease forwards;
+}
+
+/* Animation for C++ skill */
+.Cpp {
+    width: 0;
+    animation: Cpp 3s ease forwards;
+}
+
+/* Animation for JAVA skill */
+.JAVA {
+    width: 0;
+    animation: JAVA 3s ease forwards;
+}
+
+@keyframes HTML {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes CSS {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes JAVASCRIPT {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes C {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes Cpp {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes JAVA {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 45%;
+    }
+}

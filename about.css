@@ -1,0 +1,52 @@
+/* Styles for the About Myself section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    background-color:aqua; /* Change this to your preferred background color */
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #3d247b; /* Change the text color as needed */
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666; /* Change the text color as needed */
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Creates a circular profile picture */
+    margin-top: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow to the image */
+  }
+  
+  /* Styles for the header */
+  header {
+    background-color: #333; /* Change this to your preferred header background color */
+    color: #fff; /* Change the header text color as needed */
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  /* Styles for the footer */
+  footer {
+    text-align: center;
+    background-color: #333; /* Change this to your preferred footer background color */
+    color: #fff; /* Change the footer text color as needed */
+    padding: 1rem 0;
+  }
+  
+  /* Add any additional styles you want for the entire page here */
+  
